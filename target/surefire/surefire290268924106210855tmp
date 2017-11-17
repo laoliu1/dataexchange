@@ -1,0 +1,28 @@
+#surefire
+#Fri Nov 17 11:36:13 CST 2017
+testClassesDirectory=D\:\\dev\\eclipse\\workspace\\dataexchange\\target\\test-classes
+classPathUrl.3=D\:\\dev\\repo\\mysql\\mysql-connector-java\\6.0.6\\mysql-connector-java-6.0.6.jar
+classPathUrl.2=D\:\\dev\\repo\\com\\microsoft\\sqlserver\\mssql-jdbc\\6.3.4.jre8-preview\\mssql-jdbc-6.3.4.jre8-preview.jar
+useManifestOnlyJar=true
+classPathUrl.1=D\:\\dev\\eclipse\\workspace\\dataexchange\\target\\classes
+reportsDirectory=D\:\\dev\\eclipse\\workspace\\dataexchange\\target\\surefire-reports
+classPathUrl.0=D\:\\dev\\eclipse\\workspace\\dataexchange\\target\\test-classes
+dirscanner.0=directoryScannerOptions
+providerConfiguration=org.apache.maven.surefire.junit.JUnit3Provider
+testSuiteDefinitionTestSourceDirectory=D\:\\dev\\eclipse\\workspace\\dataexchange\\src\\test\\java
+surefireClassPathUrl.1=D\:\\dev\\repo\\org\\apache\\maven\\surefire\\surefire-api\\2.7.1\\surefire-api-2.7.1.jar
+surefireClassPathUrl.0=D\:\\dev\\repo\\org\\apache\\maven\\surefire\\surefire-junit3\\2.7.1\\surefire-junit3-2.7.1.jar
+report.2=org.apache.maven.surefire.report.XMLReporter
+useSystemClassLoader=true
+report.1=org.apache.maven.surefire.report.BriefFileReporter
+report.0=org.apache.maven.surefire.report.ForkingConsoleReporter
+excludes0=**/*$*
+isTrimStackTrace=true
+dirscanner.0.params=D\:\\dev\\eclipse\\workspace\\dataexchange\\target\\test-classes|[**/Test*.java, **/*Test.java, **/*TestCase.java]|[**/*$*]
+enableAssertions=true
+includes2=**/*TestCase.java
+failIfNoTests=false
+includes1=**/*Test.java
+dirscanner.0.types=java.io.File|java.util.ArrayList|java.util.ArrayList
+includes0=**/Test*.java
+childDelegation=false

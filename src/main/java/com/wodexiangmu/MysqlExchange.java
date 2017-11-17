@@ -24,7 +24,7 @@ import java.sql.Statement;
 public class MysqlExchange {
 
 	private static String driver = "com.mysql.jdbc.Driver";
-	private static String localurl = "jdbc:mysql://127.0.0.1:3306/shifenzheng?serverTimezone=CTT&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true";
+	private static String localurl = "jdbc:mysql://192.168.1.25:3306/shifenzheng?serverTimezone=CTT&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true";
 	//MySQL配置时的用户名
 	private static String user = "root";
 	//MySQL配置时的密码
@@ -114,7 +114,7 @@ public class MysqlExchange {
 	}
 
 	public static void main(String[] args) {
-		for (int i = 0; i < 1000; i++) {
+		/*for (int i = 7585; i < 10000; i++) {
 			try {
 				ResultSet remouteData = DataExchange.getRemouteData(i);
 				insertLocalData(remouteData, i);
@@ -122,6 +122,46 @@ public class MysqlExchange {
 			} catch (Exception e) {
 				System.out.println("插入" + (i + 1) * 100 + "失败");
 			}
-		}
+		}*/
+		new Thread(new ExecuteThread()).start();
+		new Thread(new ExecuteThread()).start();
+		new Thread(new ExecuteThread()).start();
+		new Thread(new ExecuteThread()).start();
+		new Thread(new ExecuteThread()).start();
+		new Thread(new ExecuteThread()).start();
+		new Thread(new ExecuteThread()).start();
+		new Thread(new ExecuteThread()).start();
+		new Thread(new ExecuteThread()).start();
+		new Thread(new ExecuteThread()).start();
+		new Thread(new ExecuteThread()).start();
+		new Thread(new ExecuteThread()).start();
+		new Thread(new ExecuteThread()).start();
+		new Thread(new ExecuteThread()).start();
+		new Thread(new ExecuteThread()).start();
+		new Thread(new ExecuteThread()).start();
+		new Thread(new ExecuteThread()).start();
+		new Thread(new ExecuteThread()).start();
+		new Thread(new ExecuteThread()).start();
+		new Thread(new ExecuteThread()).start();
+		new Thread(new ExecuteThread()).start();
+		new Thread(new ExecuteThread()).start();
+		new Thread(new ExecuteThread()).start();
+		new Thread(new ExecuteThread()).start();
+		new Thread(new ExecuteThread()).start();
+		new Thread(new ExecuteThread()).start();
+		new Thread(new ExecuteThread()).start();
+		new Thread(new ExecuteThread()).start();
+		new Thread(new ExecuteThread()).start();
+		new Thread(new ExecuteThread()).start();
+		new Thread(new ExecuteThread()).start();
+		new Thread(new ExecuteThread()).start();
+		new Thread(new ExecuteThread()).start();
+		new Thread(new ExecuteThread()).start();
+		new Thread(new ExecuteThread()).start();
+		new Thread(new ExecuteThread()).start();
+		new Thread(new ExecuteThread()).start();
+		new Thread(new ExecuteThread()).start();
+		new Thread(new ExecuteThread()).start();
+		new Thread(new ExecuteThread()).start();
 	}
 }
